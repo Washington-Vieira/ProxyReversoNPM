@@ -1,0 +1,13 @@
+# Dados do Nginx Proxy Manager — NÃO versionar
+# Contêm banco (usuários/senhas), chaves JWT e certificados SSL
+data/
+letsencrypt/
+
+# Variáveis de ambiente / segredos
+.env
+*.env
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
